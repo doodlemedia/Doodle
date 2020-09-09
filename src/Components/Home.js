@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Second from './Second/Second';
-import { Router, Switch, Route, BrowserRouter } from 'react-router-dom'
+import { Router, Switch, Route, BrowserRouter, Redirect } from 'react-router-dom'
 import First from './First/First';
 import Navb from './Navbar/Navb';
 import About from './About/About';
@@ -22,6 +22,7 @@ class Home extends Component{
                         <Route path="/services" component={Services} /> 
                         <Route path="/work" component={Work} /> 
                         <Route path="/contact" component={Contact} /> 
+                        <Redirect to="/home" component={First} />
                     </Switch>
                 </BrowserRouter>
                 
