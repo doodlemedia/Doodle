@@ -1,0 +1,39 @@
+.background2{
+    background-color: #FEF9C7;
+    color: black;
+    font-family: 'Rakkas', cursive;
+    text-align: center;
+}
+.background21{
+    background-color: black;
+    color: white;
+    font-family: 'Rakkas', cursive;
+}
+.heading21{
+    font-family: 'Rakkas', cursive;
+    text-align: center;
+    margin-bottom: 7%;
+    margin-top: 5%;
+    color: black;
+    font-size: 65px;
+}
+.section21{
+    text-align: center;
+    font-size: 35px;
+    color: black;
+    font-family: 'Rakkas', cursive;
+}
+.line{
+    background-color: black;
+    max-width: 100px;
+    height: 1px;
+    border: 0px;
+}
+@media only screen and (max-width: 600px){
+    .heading21{
+        font-size: 40px;
+    }
+    .section21{
+        font-size: 25px;
+    }
+}

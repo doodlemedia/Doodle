@@ -1,0 +1,89 @@
+.background3{
+    background-color: #FEF9C7;
+    color: black;
+    font-family: 'Rakkas', cursive;
+    
+}
+.heading33{
+    font-size: 60px;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    text-align: center;
+    color: black;
+}
+.heading3{
+    font-size: 40px;
+    color: black;
+    text-decoration: none;  
+}
+.heading3:hover{
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.705);
+    text-decoration: none; 
+}
+.section3{
+    font-size: 30px;
+    margin-bottom: 15%;
+    
+}
+.section32{
+    font-size: 30px;
+    margin-bottom: 15%;
+    text-align: right;
+}
+.heading32{
+    font-size: 40px;
+    text-align: right;
+}
+.buttonS{
+    border: 1px solid black;
+    color: black;
+    text-align: center;
+    border-radius: 15px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 40px;
+    transition: 500ms;
+}
+.buttonS:hover{
+    background-color: black;
+    color: #FEF9C7;
+}
+
+.pi1{
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-top: -10%;
+    
+    
+}
+.pi19{
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-top: -10%;
+    margin-left: 40%;
+    
+}
+@media only screen and (max-width: 600px){
+    .section3{
+        text-align: center;
+    }
+    .section32{
+        text-align: center;
+    }
+    .heading3,.heading32{
+        text-align: center;
+    }
+    .pi19{
+        margin-left: 0%;
+    }
+}
+@media only screen and (max-width: 800px){
+    .pi19{
+        margin-left: 0%;
+    }
+}

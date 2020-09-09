@@ -1,0 +1,164 @@
+.background4{
+    background-color: #FEF9C7;
+    text-align: center;
+}
+.heading4{
+    color: black;
+    font-size: 60px;
+    font-family: 'Rakkas', cursive;
+    margin-top: 5%;
+}
+
+.picW{
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin-top: 10%;
+    transition: 600ms;
+    position: relative;
+}
+.picW:hover{
+    opacity: 0.5;
+    max-width: 510px;  
+}
+.box .content1{
+    position: absolute;
+    color: black;
+    top: 0;
+    left: 0;
+    width: 40%;
+    margin-top: 40%;
+    z-index: 2;
+    transform: translateY(50px);
+    transition: 600ms;
+    opacity: 0;
+    text-align: center;
+}
+.box:hover .content1{
+    transform: translateY(40px);
+    position: absolute;
+    opacity: 1;
+    font-size: 30px;
+    margin-left: 15%;
+    font-family: 'Rakkas', cursive;
+}
+.box .content2{
+    position: absolute;
+    color: black;
+    top: 0;
+    left: 0;
+    width: 40%;
+    margin-top: 40%;
+    z-index: 2;
+    transform: translateY(50px);
+    transition: 600ms;
+    opacity: 0;
+}
+.box:hover .content2{
+    transform: translateY(40px);
+    position: absolute;
+    opacity: 1;
+    font-size: 30px;
+    margin-left: 15%;
+    font-family: 'Rakkas', cursive;
+}
+.box .content3{
+    position: absolute;
+    color: black;
+    top: 0;
+    left: 0;
+    width: 40%;
+    margin-top: 40%;
+    z-index: 2;
+    transform: translateY(50px);
+    transition: 600ms;
+    opacity: 0;
+}
+.box:hover .content3{
+    transform: translateY(0px);
+    position: absolute;
+    opacity: 1;
+    font-size: 27px;
+    margin-left: 20%;
+    font-family: 'Rakkas', cursive;
+}
+.box .content4{
+    position: absolute;
+    color: black;
+    top: 0;
+    left: 0;
+    width: 40%;
+    margin-top: 40%;
+    z-index: 2;
+    transform: translateY(50px);
+    transition: 600ms;
+    opacity: 0;
+}
+.box:hover .content4{
+    transform: translateY(0px);
+    position: absolute;
+    opacity: 1;
+    font-size: 30px;
+    margin-left: 20%;
+    font-family: 'Rakkas', cursive;
+}
+.box .content5{
+    position: absolute;
+    color: black;
+    top: 0;
+    left: 0;
+    width: 40%;
+    margin-top: 40%;
+    z-index: 2;
+    transform: translateY(450px);
+    transition: 600ms;
+    opacity: 0;
+}
+.box:hover .content5{
+    transform: translateY(400px);
+    position: absolute;
+    opacity: 1;
+    font-size: 30px;
+    margin-left: 20%;
+    font-family: 'Rakkas', cursive;
+}
+.box .content6{
+    position: absolute;
+    color: black;
+    top: 0;
+    left: 0;
+    width: 40%;
+    margin-top: 40%;
+    z-index: 2;
+    transform: translateY(450px);
+    transition: 600ms;
+    opacity: 0;
+}
+.box:hover .content6{
+    transform: translateY(400px);
+    position: absolute;
+    opacity: 1;
+    font-size: 30px;
+    margin-left: 20%;
+    font-family: 'Rakkas', cursive;
+}
+.box .content7{
+    position: absolute;
+    color: black;
+    top: 0;
+    left: 0;
+    width: 40%;
+    margin-top: 40%;
+    z-index: 2;
+    transform: translateY(50px);
+    transition: 600ms;
+    opacity: 0;
+}
+.box:hover .content7{
+    transform: translateY(0px);
+    position: absolute;
+    opacity: 1;
+    font-size: 40px;
+    margin-left: 20%;
+    font-family: 'Rakkas', cursive;
+}

@@ -1,0 +1,35 @@
+.frmc{
+    background-color: #FEF9C7;
+    border: 0px;
+    border-bottom: 2px solid black;
+    margin-top: 5%;
+    font-size: 40px;
+    width: 900px;
+    font-family: 'Rakkas', cursive;
+}
+.buttonC{
+    border: 2px solid black;
+    background-color: #FEF9C7;
+    border-radius: 25px;
+    font-size: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 5%;
+    font-family: 'Rakkas', cursive;
+}
+.buttonC:hover{
+    background-color: black;
+    color: #FEF9C7;
+}
+@media only screen and (max-width: 800px){
+    .frmc{
+        width: 300px;
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width: 600px){
+    .frmc{
+        width: 200px;
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,27 @@
+.Navbar{
+    background: black;
+    color: white;
+    z-index: -1;
+    box-shadow: 1;
+    box-shadow: 2px 5px 20px black;
+}
+.link{
+    color: white;
+    
+    font-family: 'Rakkas', cursive;
+    font-size: 20px;
+}
+.link:hover{
+    text-decoration: none;
+    color: rgb(227, 233, 147);
+    font-weight: 300;
+}
+.navbrand{
+    border-radius: 20px;
+    width: 100%;
+    max-width: 110px;
+    height: auto;
+
+    z-index: 2;
+    padding: 10px;
+}

@@ -1,0 +1,22 @@
+.carousel-indicators {
+    background-color: rgb(29, 27, 27);
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 35px;
+  color: black;
+  font-weight: bolder;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 35px;
+  color:black;
+  font-weight: bolder;
+}

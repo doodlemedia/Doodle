@@ -1,0 +1,96 @@
+.picC{
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    text-align: center;
+    margin-left: 13%;
+}
+
+.picC1{
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    margin-top: 10%;
+    text-align: center;
+}
+.backgroundC{
+    background-color: #FEF9C7;
+}
+.headingC{
+    color: black;
+    font-size: 60px;
+    font-family: 'Rakkas', cursive;
+    margin-top: 5%;
+    text-align: center;
+}
+.lineC{
+    background-color: rgb(0, 0, 0);
+    height: 4px;
+    border: 0px;
+    width: 200px;
+}
+.lineCs{
+    background-color: rgb(0, 0, 0);
+    height: 1px;
+    border: 0px;
+    width: 200px;
+    margin-top: 2%;
+}
+.icon{
+    width: 50px; 
+}
+.row{
+    justify-content: center;
+}
+.links{
+    color: black;
+    font-size: 20px;
+}
+.links:hover{
+    color: rgb(49, 47, 47);
+    text-decoration: none;
+}
+.headingL{
+    font-family: 'Rakkas', cursive;
+    font-size: 30px;
+}
+.sectionL{
+    font-family: 'Rakkas', cursive;
+    font-size: 20px;
+}
+.center{
+    text-align: center;
+    background-color: white;
+}
+.piclogo{
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+@media only screen and (max-width: 600px){
+    .mar{
+        margin-left: 10%;
+    }
+    .piclogo{
+        margin-left: 10%;
+        margin-bottom: 10%;
+    }
+    .icon{
+        width: 30px;  
+    }
+    .picC{
+        margin-left: 0;
+    }
+    div.hidd{
+        display: none;
+    }
+}
+@media only screen and (max-width: 800px){
+    .piclogo{
+        margin-left: 0%;
+        margin-bottom: 10%;
+        max-width: 190px;
+    }
+}
