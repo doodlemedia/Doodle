@@ -33,7 +33,9 @@ class Services extends Component {
                     </div>
                     </Fade>
                     <br/>
+                    <br/>
                     <p className="container line" />
+                    <br/>
                     <br/>
                     <br/>
                     <Fade right duration={1000} >
@@ -53,7 +55,7 @@ class Services extends Component {
                     </Fade>
                     <p className="container line" />
                     <br />
-                    <br />
+                    <br/>
                     <Fade left duration={1000} >
                     <div className="row ">
                         <div className="col-12 col-md-6">
@@ -71,6 +73,7 @@ class Services extends Component {
                     </Fade>
                     <br/>
                     <p className="container line" />
+                    <br/>
                     <br/>
                     <br/>
                     <Fade right duration={1000} >
@@ -91,6 +94,7 @@ class Services extends Component {
                     <p className="container line" />
                     <br />
                     <br />
+                    <br/>
                     <Fade left duration={1000} >
                     <div className="row ">
                         <div className="col-12 col-md-6">
@@ -107,6 +111,7 @@ class Services extends Component {
                     </div>
                     </Fade>
                     <p className="container line" />
+                    <br/>
                     <br/>
                     <br/>
                     <Fade right duration={1000} >
@@ -127,6 +132,7 @@ class Services extends Component {
                     <p className="container line" />
                     <br />
                     <br />
+                    <br/>
                     <Fade left duration={1000} >
                     <div className="row ">
                         <div className="col-12 col-md-6">
@@ -145,6 +151,7 @@ class Services extends Component {
                     <p className="container line" />
                     <br/>
                     <br/>
+                    <br/>
                     <Fade right duration={1000} >
                     <div className="row">
                         <div className="col-12 col-md-6">
@@ -160,15 +167,18 @@ class Services extends Component {
                         </div>
                     </div>
                     </Fade>
+                    <br/>
                     <p className="container line" />
                     <br />
                     <br />
+                    <br/>
                     <Fade left duration={1000} >
                     <div className="row ">
                         <div className="col-12 col-md-6">
                             <div className="heading3">
                             <Link className="heading3" to='/work'>Web Banner </Link>
                             </div>
+                            
                             <div className="section3">
                             Banner ads are intended to generate traffic to a website by linking to it
                             </div>
@@ -178,7 +188,9 @@ class Services extends Component {
                         </div>
                     </div>
                     </Fade>
+                    <br/>
                     <p className="container line" />
+                    <br/>
                     <br/>
                     <br/>
                     <Fade right duration={1000} >
@@ -196,9 +208,11 @@ class Services extends Component {
                         </div>
                     </div>
                     </Fade>
+                    <br/>
                     <p className="container line" />
                     <br />
                     <br />
+                    <br/>
                     <Fade left duration={1000} >
                     <div className="row ">
                         <div className="col-12 col-md-6">
@@ -214,7 +228,9 @@ class Services extends Component {
                         </div>
                     </div>
                     </Fade>
+                    <br/>
                     <p className="container line" />
+                    <br/>
                     <br/>
                     <br/>
                     <Fade right duration={1000} >
@@ -232,9 +248,11 @@ class Services extends Component {
                         </div>
                     </div>
                     </Fade>
+                    <br/>
                     <p className="container line" />
                     <br />
                     <br />
+                    <br/>
                     <Fade left duration={1000} >
                     <div className="row ">
                         <div className="col-12 col-md-6">

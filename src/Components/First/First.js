@@ -9,7 +9,7 @@ class First extends Component {
             <div className="background">
                 <div className="row container">
                     <div className="col-12 col-md-7">
-                        <img className="logo" src={require('../Assets/logo.png')} alt="full pic" />
+                        <img className="logo" src={require('../Assets/pink.png')} alt="full pic" />
                         <div className="heading">Graphics For Everyone!</div><br/>
                         <div className="paragraph">We are Here to Add Creativity to your thoughts that models your brand Smart</div>
                         <Link className="button link" to='/second'>Learn more</Link>

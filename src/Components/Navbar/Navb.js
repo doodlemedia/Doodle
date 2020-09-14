@@ -27,7 +27,7 @@ class Navb extends Component {
                     <NavbarToggler onClick={this.toggleNav} style={{ border: "1px solid white", color: "white" }}>=</NavbarToggler>
                     <Collapse isOpen={this.state.isNavOpen} navbar>
                     <NavbarBrand className="mr-auto navbrand" href="/home">
-                            <img src={require('../Assets/whitelogo.png')} height="50" width="91" alt="Ristorante Con Fusion" />
+                            <img src={require('../Assets/whitelogo.png')} height="60" width="70" alt="Ristorante Con Fusion" />
                         </NavbarBrand>
                         <div className="ml-auto">
                         

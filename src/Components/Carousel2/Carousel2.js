@@ -15,7 +15,7 @@ const items = [
     src:require("../Assets/test2.png"),
   },
   {
-    src:require("../Assets/test2.png"),
+    src:require("../Assets/test3.png"),
   }
 ];
 

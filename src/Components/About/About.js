@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import { Link } from 'react-router-dom';
 import './About.css';
 import { Row, Col } from 'reactstrap';
 import Navb from '../Navbar/Navb';
@@ -28,7 +28,11 @@ class About extends Component {
                         <p>Browse around their web pages and search for what<br /> you need, and if you can't find it simply make a <br />design request below, So our team will get back to<br /> you!     </p>
                     </div>
                     <br />
+                    <Link to="/services" className="buttonA">Our Services<br /></Link>
+                    <br />
                 </div>
+                
+                
                 <div className="background21">
                     <ContactUs/>
                 </div>

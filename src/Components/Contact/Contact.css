@@ -57,6 +57,11 @@
 .sectionL{
     font-family: 'Rakkas', cursive;
     font-size: 20px;
+    margin-bottom: 3%;
+}
+.sect{
+    font-family: 'Rakkas', cursive;
+    font-size: 20px;
 }
 .center{
     text-align: center;

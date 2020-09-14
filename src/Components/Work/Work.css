@@ -1,14 +1,13 @@
 .background4{
-    background-color: #FEF9C7;
+    background-color: rgb(37, 36, 36);
     text-align: center;
 }
 .heading4{
-    color: black;
+    color: white;
     font-size: 60px;
     font-family: 'Rakkas', cursive;
     margin-top: 5%;
 }
-
 .picW{
     width: 100%;
     max-width: 500px;
@@ -18,12 +17,12 @@
     position: relative;
 }
 .picW:hover{
-    opacity: 0.5;
+    opacity: 0.3;
     max-width: 510px;  
 }
 .box .content1{
     position: absolute;
-    color: black;
+    color: white;
     top: 0;
     left: 0;
     width: 40%;
@@ -44,7 +43,7 @@
 }
 .box .content2{
     position: absolute;
-    color: black;
+    color: white;
     top: 0;
     left: 0;
     width: 40%;
@@ -64,7 +63,7 @@
 }
 .box .content3{
     position: absolute;
-    color: black;
+    color: white;
     top: 0;
     left: 0;
     width: 40%;
@@ -84,7 +83,7 @@
 }
 .box .content4{
     position: absolute;
-    color: black;
+    color: white;
     top: 0;
     left: 0;
     width: 40%;
@@ -104,7 +103,7 @@
 }
 .box .content5{
     position: absolute;
-    color: black;
+    color: white;
     top: 0;
     left: 0;
     width: 40%;
@@ -124,7 +123,7 @@
 }
 .box .content6{
     position: absolute;
-    color: black;
+    color: white;
     top: 0;
     left: 0;
     width: 40%;
@@ -144,21 +143,177 @@
 }
 .box .content7{
     position: absolute;
-    color: black;
+    color: white;
     top: 0;
     left: 0;
     width: 40%;
     margin-top: 40%;
     z-index: 2;
-    transform: translateY(50px);
+    transform: translateY(110px);
     transition: 600ms;
     opacity: 0;
 }
 .box:hover .content7{
-    transform: translateY(0px);
+    transform: translateY(80px);
     position: absolute;
     opacity: 1;
-    font-size: 40px;
+    font-size: 35px;
     margin-left: 20%;
     font-family: 'Rakkas', cursive;
+}
+.box .content8{
+    position: absolute;
+    color: white;
+    top: 0;
+    left: 0;
+    width: 40%;
+    margin-top: 40%;
+    z-index: 2;
+    transform: translateY(110px);
+    transition: 600ms;
+    opacity: 0;
+}
+.box:hover .content8{
+    transform: translateY(80px);
+    position: absolute;
+    opacity: 1;
+    font-size: 35px;
+    margin-left: 20%;
+    font-family: 'Rakkas', cursive;
+}
+.box .content9{
+    position: absolute;
+    color: white;
+    top: 0;
+    left: 0;
+    width: 40%;
+    margin-top: 40%;
+    z-index: 2;
+    transform: translateY(110px);
+    transition: 600ms;
+    opacity: 0;
+}
+.box:hover .content9{
+    transform: translateY(80px);
+    position: absolute;
+    opacity: 1;
+    font-size: 35px;
+    margin-left: 20%;
+    font-family: 'Rakkas', cursive;
+}
+.box .content10{
+    position: absolute;
+    color: white;
+    top: 0;
+    left: 0;
+    width: 40%;
+    margin-top: 40%;
+    z-index: 2;
+    transform: translateY(110px);
+    transition: 600ms;
+    opacity: 0;
+}
+.box:hover .content10{
+    transform: translateY(80px);
+    position: absolute;
+    opacity: 1;
+    font-size: 35px;
+    margin-left: 20%;
+    font-family: 'Rakkas', cursive;
+}
+.box .content11{
+    position: absolute;
+    color: white;
+    top: 0;
+    left: 0;
+    width: 40%;
+    margin-top: 40%;
+    z-index: 2;
+    transform: translateY(460px);
+    transition: 600ms;
+    opacity: 0;
+}
+.box:hover .content11{
+    transform: translateY(410px);
+    position: absolute;
+    opacity: 1;
+    font-size: 35px;
+    margin-left: 20%;
+    font-family: 'Rakkas', cursive;
+}
+.box .content12{
+    position: absolute;
+    color: white;
+    top: 0;
+    left: 0;
+    width: 40%;
+    margin-top: 40%;
+    z-index: 2;
+    transform: translateY(460px);
+    transition: 600ms;
+    opacity: 0;
+}
+.box:hover .content12{
+    transform: translateY(410px);
+    position: absolute;
+    opacity: 1;
+    font-size: 35px;
+    margin-left: 20%;
+    font-family: 'Rakkas', cursive;
+}
+.box .content13{
+    position: absolute;
+    color: white;
+    top: 0;
+    left: 0;
+    width: 40%;
+    margin-top: 40%;
+    z-index: 2;
+    transform: translateY(400px);
+    transition: 600ms;
+    opacity: 0;
+}
+.box:hover .content13{
+    transform: translateY(380px);
+    position: absolute;
+    opacity: 1;
+    font-size: 35px;
+    margin-left: 20%;
+    font-family: 'Rakkas', cursive;
+}
+.box .content14{
+    position: absolute;
+    color: white;
+    top: 0;
+    left: 0;
+    width: 40%;
+    margin-top: 40%;
+    z-index: 2;
+    transform: translateY(400px);
+    transition: 600ms;
+    opacity: 0;
+}
+.box:hover .content14{
+    transform: translateY(380px);
+    position: absolute;
+    opacity: 1;
+    font-size: 35px;
+    margin-left: 20%;
+    font-family: 'Rakkas', cursive;
+}
+.buttonW{
+    border: 2px solid white;
+    background-color: rgb(37, 36, 36);
+    border-radius: 25px;
+    font-size: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 5%;
+    color: white;
+    font-family: 'Rakkas', cursive;
+}
+.buttonW:hover{
+    background-color: black;
+    color: #FEF9C7;
+    border: 2px solid black;
 }

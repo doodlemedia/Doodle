@@ -57,7 +57,7 @@ class Work extends Component{
                     <div className="col-12 col-md-6 box">
                     <img className="picW" src={require('../Assets/smar.jpg')} alt="full pic" />
                     <p className="content7">
-                            Products Print Designs
+                            Products Print
                         </p>
                     </div>
                     <div className="col-12 col-md-6 box">
@@ -77,7 +77,7 @@ class Work extends Component{
                     <div className="col-12 col-md-6 box">
                     <img className="picW" src={require('../Assets/smartmockupsk.jpg')} alt="full pic" />
                     <p className="content10">
-                            Business Card Designing
+                            Business Card 
                         </p>
                     </div>
                 </div>
@@ -99,16 +99,21 @@ class Work extends Component{
                     <div className="col-12 col-md-6 box">
                     <img className="picW" src={require('../Assets/White.png')} alt="full pic" />
                     <p className="content13">
-                            Menu Card Designing
+                            Menu Card 
                         </p>
                     </div>
                     <div className="col-12 col-md-6 box">
                     <img className="picW" src={require('../Assets/Wh.png')} alt="full pic" />
                     <p className="content14">
-                            Greeting Card Designing
+                            Greeting Card 
                         </p>
                     </div>
                 </div>
+                <br/>
+                <br/>
+                <Link className="buttonW link" to='/contact'>Get in Touch with us</Link><br />
+                <br/>
+                <br/>
             </div>
         )
     }

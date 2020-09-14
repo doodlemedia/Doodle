@@ -115,10 +115,10 @@ class Contact extends Component {
                     </div>
                 <div className="center">
 
-                    <div className="sectionL">
+                    <div className="sect">
                         Copyright 2020
                     </div>
-                    <div className="sectionL">
+                    <div className="sect">
                         All Rights Reserved. Creativity by Doodle Media
                     </div>
                 </div>
