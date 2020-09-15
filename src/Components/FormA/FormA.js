@@ -1,45 +1,58 @@
-import React from 'react';
+import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
+import { db } from '../firebase';
 import './FormA.css';
 
-export default function ContactUs() {
+const ContactUs = () => {
+    const [name, setName] = useState("");
+    const [email, setEmail] = useState("");
+    const [message, setMessage] = useState("");
 
-    function sendEmail(e) {
+    const [loader, setLoader] = useState(false);
+    const handleSubmit = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('gmail', 'template_wziju8p', e.target, 'user_PtA1bipZUhhTloD3FwKXJ')
-            .then((result) => {
-                console.log(result.text);
-            }, (error) => {
-                console.log(error.text);
+        db.collection('contact').add({
+            name: name,
+            email: email,
+            message: message,
+        })
+            .then(() => {
+                alert('message has been submitted');
+                setLoader(false);
+            })
+            .catch((error) => {
+                alert(error.message);
+                setLoader(false);
             });
-    }
-    function refreshPage() {
-        window.location.reload(false);
-    }
+        setName("");
+        setEmail("");
+        setMessage("");
+    };
     return (
-        <form className="contact-form container" style={{ textAlign: "center" }} onSubmit={sendEmail}>
+
+        <form className="contact-form" style={{ textAlign: "center" }} onSubmit={handleSubmit}>
             <div className="row">
                 <div className="col-12 col-md-6">
+                <br/>
                     <br/>
-                    <br/>
-                    <input type="text" name="from_name"  placeholder="Name" className="frm" /><br />
-                    <input type="hidden" name="contact_number " placeholder="Name" />
-                    <input type="email" name="user_email" className="input frm" placeholder="Email" /><br />
-                    <textarea name="message_html" className="input frm"  placeholder="Design Message" /><br />
+                    <input type="text" placeholder="Name" className="frm" value={name} onChange={(e) => setName(e.target.value)} /><br />
+
+                    <input type="email" placeholder="Email" className="input frm" value={email} onChange={(e) => setEmail(e.target.value)} /><br />
+
+                    <textarea className="input frm" placeholder="Message" value={message} onChange={(e) => setMessage(e.target.value)} /><br /><br /><br />
                 </div>
                 <div className="col-12 col-md-6">
-                    <img className="emailA" src={require('../Assets/email.png')} alt="full pic" />
-                    <br/>
-                    <input type="submit" value="Request" className="buttonF" onClick={refreshPage}></input>
-                    <br/>
+                    <img className="emailA" src={require('../Assets/email.png')} alt="full pic" /><br/>
+                    <button type="submit" className="buttonF" >Request</button>
                 </div>
-                
-
-            </div>
-
+            </div >
+        </form >
 
 
-        </form>
+
     );
 }
+
+
+export default ContactUs;

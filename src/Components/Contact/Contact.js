@@ -6,6 +6,8 @@ import './Contact.css';
 import Contactu from '../FormC/FormC';
 import Example from '../Carousel/Carousel';
 import Example2 from '../Carousel2/Carousel2';
+import ContactUs from '../FormA/FormA';
+import ContactC from '../FormC/FormC';
 
 
 class Contact extends Component {
@@ -35,9 +37,9 @@ class Contact extends Component {
                     <div className="container">
                         <img className="picC1" src={require('../Assets/illustration.png')} alt="full pic" />
                     </div>
-
+                    <ContactC />
                 </div>
-                <Contactu />
+                
 
                 <div className="container">
                     <p className="container lineC" />

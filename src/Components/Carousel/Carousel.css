@@ -20,3 +20,14 @@
   color:black;
   font-weight: bolder;
 }
+@media only screen and (max-width: 800px){
+  .carousel-indicators {
+    background-color: rgba(0, 0, 0, 0);
+  }
+  .carousel-control-next-icon:after{
+    visibility: hidden;
+  }
+  .carousel-control-prev-icon:after{
+    visibility: hidden;
+  }
+}
