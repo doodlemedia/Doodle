@@ -14,6 +14,7 @@ class Home extends Component{
         return(
             <div>
                 <BrowserRouter>
+                <Navb />
                     <Switch>
                         
                         <Route path="/home" component={First} />

@@ -3,7 +3,6 @@ import { Navbar, NavbarBrand, NavbarToggler, Nav, NavLink, Collapse, NavItem } f
 import { Link } from 'react-router-dom';
 import './Navb.css';
 
-
 class Navb extends Component {
     constructor(props) {
         super(props);

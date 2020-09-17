@@ -10,7 +10,7 @@ class About extends Component {
         return (
             <div>
                 <div className="background2">
-                    <Navb />
+                    <div><Navb /></div>
                     <div className="heading21 container">
                         <h2>About Doodle Media</h2>
                     </div>
