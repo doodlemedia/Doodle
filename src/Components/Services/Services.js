@@ -13,13 +13,14 @@ class Services extends Component {
                 <div className="container">
 
                     <div className="heading33">
-                        Our Services
+                        <h2>Our Services</h2>
                 </div>
                     <br />
                     <br />
                     <Fade left duration={1000} >
                     <div className="row ">
                         <div className="col-12 col-md-6">
+                            <img className="pi18" src={require('../Assets/Webdesigning.png')} alt="full pic" />
                             <div className="heading3">
                                 <Link className="heading3" to='/work'> Web Designing</Link>
                             </div>
@@ -27,7 +28,7 @@ class Services extends Component {
                                 To provide background information about a business, organization, or service.
                             </div>
                         </div>
-                        <div className="col-12 col-md-6" >                    
+                        <div className="col-12 col-md-6 serv" >                    
                                 <img className="pi19" src={require('../Assets/Webdesigning.png')} alt="full pic" />                           
                         </div>
                     </div>
@@ -59,6 +60,7 @@ class Services extends Component {
                     <Fade left duration={1000} >
                     <div className="row ">
                         <div className="col-12 col-md-6">
+                        <img className="pi18" src={require('../Assets/Posterdesigning.png')} alt="full pic" />
                             <div className="heading3">
                             <Link className="heading3" to='/work'>Poster Designing</Link>
                             </div>
@@ -66,7 +68,7 @@ class Services extends Component {
                             They are a frequent tool of advertisers to communicate a message Graphically
                             </div>
                         </div>
-                        <div className="col-12 col-md-6" >
+                        <div className="col-12 col-md-6 serv" >
                             <img className="pi19" src={require('../Assets/Posterdesigning.png')} alt="full pic" />
                         </div>
                     </div>
@@ -98,6 +100,7 @@ class Services extends Component {
                     <Fade left duration={1000} >
                     <div className="row ">
                         <div className="col-12 col-md-6">
+                            <img className="pi18" src={require('../Assets/Brochuredesign.png')} alt="full pic" />
                             <div className="heading3">
                             <Link className="heading3" to='/work'>Brochure Designing </Link>
                             </div>
@@ -105,7 +108,7 @@ class Services extends Component {
                             Brochures are great marketing tools when reaching out to new customers. & provide positive press about your company.
                             </div>
                         </div>
-                        <div className="col-12 col-md-6" >
+                        <div className="col-12 col-md-6 serv" >
                         <img className="pi19" src={require('../Assets/Brochuredesign.png')} alt="full pic" />
                         </div>
                     </div>
@@ -136,6 +139,7 @@ class Services extends Component {
                     <Fade left duration={1000} >
                     <div className="row ">
                         <div className="col-12 col-md-6">
+                        <img className="pi18" src={require('../Assets/InvitationCarddesign.png')} alt="full pic" />
                             <div className="heading3">
                             <Link className="heading3" to='/work'>Invitation Card</Link>
                             </div>
@@ -143,7 +147,7 @@ class Services extends Component {
                             In a business, invitations might be sent for a special event like a grand opening, or release of new product.
                             </div>
                         </div>
-                        <div className="col-12 col-md-6" >
+                        <div className="col-12 col-md-6 serv" >
                         <img className="pi19" src={require('../Assets/InvitationCarddesign.png')} alt="full pic" />
                         </div>
                     </div>
@@ -175,6 +179,7 @@ class Services extends Component {
                     <Fade left duration={1000} >
                     <div className="row ">
                         <div className="col-12 col-md-6">
+                        <img className="pi18" src={require('../Assets/Webbannerdesign.png')} alt="full pic" />
                             <div className="heading3">
                             <Link className="heading3" to='/work'>Web Banner </Link>
                             </div>
@@ -183,7 +188,7 @@ class Services extends Component {
                             Banner ads are intended to generate traffic to a website by linking to it
                             </div>
                         </div>
-                        <div className="col-12 col-md-6" >
+                        <div className="col-12 col-md-6 serv" >
                         <img className="pi19" src={require('../Assets/Webbannerdesign.png')} alt="full pic" />
                         </div>
                     </div>
@@ -216,6 +221,7 @@ class Services extends Component {
                     <Fade left duration={1000} >
                     <div className="row ">
                         <div className="col-12 col-md-6">
+                        <img className="pi18" src={require('../Assets/Menucarddesign.png')} alt="full pic" />
                             <div className="heading3">
                             <Link className="heading3" to='/work'>Menu Card Designing</Link>
                             </div>
@@ -223,7 +229,7 @@ class Services extends Component {
                             Its purpose is to display the food your guests
                             </div>
                         </div>
-                        <div className="col-12 col-md-6" >
+                        <div className="col-12 col-md-6 serv" >
                         <img className="pi19" src={require('../Assets/Menucarddesign.png')} alt="full pic" />
                         </div>
                     </div>
@@ -256,6 +262,7 @@ class Services extends Component {
                     <Fade left duration={1000} >
                     <div className="row ">
                         <div className="col-12 col-md-6">
+                        <img className="pi18" src={require('../Assets/GreetingCarddesign.png')} alt="full pic" />
                             <div className="heading3">
                             <Link className="heading3" to='/work'>Greeting Card</Link>
                             </div>
@@ -263,7 +270,7 @@ class Services extends Component {
                             Greeting Cards Are Still A Thing In The Digital Age for expressing a message.
                             </div>
                         </div>
-                        <div className="col-12 col-md-6" >
+                        <div className="col-12 col-md-6 serv" >
                         <img className="pi19" src={require('../Assets/GreetingCarddesign.png')} alt="full pic" />
                         </div>
                         <br/>

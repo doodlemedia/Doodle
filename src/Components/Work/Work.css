@@ -41,6 +41,20 @@
     margin-left: 15%;
     font-family: 'Rakkas', cursive;
 }
+@media only screen and (max-width: 600px){
+    .box:hover .content1{
+        transform: translateY(40px);
+        font-size: 20px;    
+    }
+    .box:hover .content2{
+        transform: translateY(40px);
+        font-size: 20px;    
+    }
+    .box:hover .content3{
+        transform: translateY(0px);
+        font-size: 20px;
+    }
+}
 .box .content2{
     position: absolute;
     color: white;
@@ -101,6 +115,12 @@
     margin-left: 20%;
     font-family: 'Rakkas', cursive;
 }
+@media only screen and (max-width: 600px){
+    .box:hover .content4{
+        transform: translateY(0px);
+        font-size: 20px;
+    }
+}
 .box .content5{
     position: absolute;
     color: white;
@@ -120,6 +140,12 @@
     font-size: 30px;
     margin-left: 20%;
     font-family: 'Rakkas', cursive;
+}
+@media only screen and (max-width: 600px){
+    .box:hover .content5{
+        transform: translateY(200px);
+        font-size: 30px;
+    }
 }
 .box .content6{
     position: absolute;

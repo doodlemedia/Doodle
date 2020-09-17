@@ -8,8 +8,8 @@ class Work extends Component{
         return(
             <div className="background4">
                 <Navb/>
-                <div className="heading4">
-                    Work Gallery
+                <div className="heading4 container">
+                    <h2>Work Gallery</h2>
                 </div>
                 <div className="row">
                     <div className="col-12 col-md-6 box">
@@ -29,7 +29,7 @@ class Work extends Component{
                     <div className="col-12 col-md-6  box">
                     <img className="picW" src={require('../Assets/Presentation.png')} alt="full pic" />
                     <p className="content3">
-                            Social Media Designing 
+                            Social Media 
                         </p>
                     </div>
                     <div className="col-12 col-md-6 box">

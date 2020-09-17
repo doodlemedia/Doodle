@@ -1,10 +1,6 @@
 .carousel-indicators {
     background-color: rgb(29, 27, 27);
 }
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-
-}
 
 .carousel-control-next-icon:after
 {

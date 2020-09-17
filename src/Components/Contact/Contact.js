@@ -18,19 +18,14 @@ class Contact extends Component {
                 <Navb />
                 <div className="container">
                     <div className="headingC">
-                        <p>Our Clients</p>
+                        <h2>Our Clients</h2>
                     </div>
                     <Example />
                     <div className="headingC">
                         <p>Testimonials</p>
                     </div>
                     <Example2 />
-
-
-
                     <br />
-
-
                     <div className="headingC">
                         <p>Get in Touch with us</p>
                     </div>
@@ -69,11 +64,11 @@ class Contact extends Component {
                         <p className="container lineCs" />
                     </div>
                 </div>
-                <div className="row">
+                <div className="row container">
                     <div className="col-12 col-md-4 mar">
                         <img className="piclogo" src={require('../Assets/pink.png')} alt="full pic" />
                     </div>
-                    <div className="col-12 col-md-4 mar">
+                    <div className="col-12 col-md-4 mar container">
                         <p className="headingL">
                             Contact us
                         </p>
@@ -87,24 +82,24 @@ class Contact extends Component {
                             <span className="fa fa-envelope fa-1x" style={{ color: "black" }} > </span>&nbsp;&nbsp; doodlemedia.11@gmail.com
                         </p>
                     </div>
-                    <div className="col-12 col-md-4 mar">
+                    <div className="col-12 col-md-4 mar container">
                         <p className="headingL">
                             Company
                         </p>
                         <div className="sectionL">
-                            <Link className="links" to='/second'>Home </Link>
+                            <Link className="links" to='/second'>Home </Link><a href=" https://www.facebook.com/Doodle-Media-111701640668210  " ><img className="iconC" src={require('../Assets/facebook.png')} alt="full pic" /></a>
                         </div>
                         <div className="sectionL">
-                            <Link className="links" to='/about'>About </Link>
+                            <Link className="links" to='/about'>About </Link> <a href="https://www.instagram.com/doodle_media_/" ><img className="iconC" src={require('../Assets/instagram.png')} alt="full pic" /></a>
                         </div>
                         <div className="sectionL">
-                            <Link className="links" to='/services'>Services </Link>
+                            <Link className="links" to='/services'>Services </Link><a href=" https://www.linkedin.com/company/doodle-media11" ><img className="iconC" src={require('../Assets/linkedin.png')} alt="full pic" /></a>
                         </div>
                         <div className="sectionL">
-                            <Link className="links" to='/work'>Work</Link>
+                            <Link className="links" to='/work'>Work</Link><a href="https://twitter.com/doodlemedia_11  " ><img className="iconC" src={require('../Assets/twitter.png')} alt="full pic" /></a>
                         </div>
                         <div className="sectionL">
-                            <Link className="links" to='/contact'>Contact</Link>
+                            <Link className="links" to='/contact'>Contact</Link><a href="https://www.behance.net/mrsanthosh1106    " ><img className="iconC" src={require('../Assets/behance.png')} alt="full pic" /></a>
                         </div>
 
                     </div>

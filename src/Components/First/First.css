@@ -6,7 +6,7 @@
 .pic{
     position: absolute;
     width: 100%;
-    max-width: 800px;
+    max-width: 1000px;
     height: auto;   
     margin-top: 25%;
 }

@@ -10,9 +10,8 @@ class Second extends Component {
             <div className="background1">
                 <Navb />
                 <div className="container">
-
-                    <div style={{ marginTop: "3%" }} className="heading2">
-                        <p>Why &nbsp; Choose &nbsp; us</p>
+                    <div style={{ marginTop: "3%" }} className="heading2 container">
+                        <h2>Why &nbsp; Choose &nbsp; us</h2>
                     </div>
                     <div className="row container section1" style={{ marginTop: "3%", marginLeft: "3%" }}>
                         <div className="col-12 col-md-6 container">
@@ -43,8 +42,8 @@ class Second extends Component {
                 </div><br /><br/>
                 <div className="footer1" >
                     <div style={{marginLeft: "3%" }}>
-                        <h2>We Help you Work Faster and Smarter</h2><br />
-                        <h4>We come together with creative Designers <br />around to provide you with the best<br /> graphics design services for all<br /> your creative needs.</h4>
+                        <h3>We Help you Work Faster and Smarter</h3><br />
+                        <h5>We come together with creative Designers <br />around to provide you with the best<br /> graphics design services for all<br /> your creative needs.</h5>
                     </div>
 
 

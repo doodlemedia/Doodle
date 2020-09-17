@@ -18,10 +18,11 @@
 }
 .headingC{
     color: black;
-    font-size: 60px;
+    font-size: 40px;
     font-family: 'Rakkas', cursive;
     margin-top: 5%;
     text-align: center;
+    margin-bottom: 4%;
 }
 .lineC{
     background-color: rgb(0, 0, 0);
@@ -38,6 +39,10 @@
 }
 .icon{
     width: 50px; 
+}
+.iconC{
+    width: 50px; 
+    display: none;
 }
 .row{
     justify-content: center;
@@ -90,6 +95,12 @@
     }
     div.hidd{
         display: none;
+    }
+    .iconC{
+        width: 30px; 
+        display: block;
+        float: right;
+       left: -20%;
     }
 }
 @media only screen and (max-width: 800px){
