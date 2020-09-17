@@ -61,9 +61,11 @@ class Contact extends Component {
                             <a href="https://www.behance.net/mrsanthosh1106    " ><img className="icon" src={require('../Assets/behance.png')} alt="full pic" /></a>
                         </div>
 
-                        <p className="container lineCs" />
+                        
                     </div>
+                    
                 </div>
+                <p className="container lineCs" />
                 <div className="row container">
                     <div className="col-12 col-md-4 mar">
                         <img className="piclogo" src={require('../Assets/pink.png')} alt="full pic" />
