@@ -11,10 +11,17 @@ class Services extends Component {
             <div className="background3 ">
                 <Navb />
                 <div className="container">
-
-                    <div className="heading33">
+                <br />
+                    <br />
+                    <br/>
+                    <div className="heading2H">
+                        Our Services
+                    </div>
+                    <div>
                         <h2>Our Services</h2>
-                </div>
+                    </div>
+                    <br />
+                    <br />
                     <br />
                     <br />
                     <Fade left duration={1000} >

@@ -16,10 +16,17 @@ class Contact extends Component {
         return (
             <div className="backgroundC">
                 <Navb />
+                <br/>
+                <br/>
                 <div className="container">
                     <div className="headingC">
+                        Our Clients
+                    </div>
+                    <div style={{fontFamily:"Rakkas, cursive"}}>
                         <h2>Our Clients</h2>
                     </div>
+                    <br/>
+                    <br/>
                     <Example />
                     <div className="headingC">
                         <p>Testimonials</p>
@@ -66,7 +73,10 @@ class Contact extends Component {
                     
                 </div>
                 <p className="container lineCs" />
-                <div className="row container">
+                <div className="container">
+
+                
+                <div className="row container" style={{justifyContent: "center"}}>
                     <div className="col-12 col-md-4 mar">
                         <img className="piclogo" src={require('../Assets/pink.png')} alt="full pic" />
                     </div>
@@ -107,6 +117,7 @@ class Contact extends Component {
                     </div>
 
 
+                </div>
                 </div>
                 <p className="container lineCs" />
                 <div className="headingL" style={{ textAlign: "center" }}>

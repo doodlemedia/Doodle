@@ -1,6 +1,5 @@
 .background1{
     background-color: #FEF9C7;
-    
 }
 .footer1{
     padding-top: 3%;
@@ -18,7 +17,6 @@ h2 {
     align-items: center;
     text-align: center;
 }
-
 h2:before,
 h2:after {
     content: '';
@@ -26,17 +24,17 @@ h2:after {
     margin: 0 20px 0 0;
     flex: 1 0 20px;
 }
-
 h2:after {
     margin: 0 0 0 20px;
 }
 
-.heading2{
+.heading2H{
     font-family: 'Rakkas', cursive;
     text-align: center;
     margin-bottom: 5%;
     color: black;
-    font-size: 60px;
+    font-size: 30px;
+    display: none;
 }
 .pic1{
     width: 100%;
@@ -127,4 +125,11 @@ h2:after {
     .pic2{
         max-width: 200px;
     }
+    .heading2H{
+        display: block;
+    }
+    h2{
+        display: none;
+    }
+
 }

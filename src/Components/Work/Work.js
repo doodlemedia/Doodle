@@ -9,6 +9,9 @@ class Work extends Component{
             <div className="background4">
                 <Navb/>
                 <div className="heading4 container">
+                    Work Gallery
+                </div>
+                <div className="headingH" >
                     <h2>Work Gallery</h2>
                 </div>
                 <div className="row">

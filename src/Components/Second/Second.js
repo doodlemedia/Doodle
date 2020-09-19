@@ -10,9 +10,15 @@ class Second extends Component {
             <div className="background1">
                 <Navb />
                 <div className="container">
-                    <div style={{ marginTop: "3%" }} className="heading2 container">
+                    <div style={{ marginTop: "3%" }} className="heading2H container">
+                        Why &nbsp; Choose &nbsp; us
+                    </div>
+                    <br/>
+                    <br/>
+                    <div style={{fontFamily:"Rakkas, cursive"}}>
                         <h2>Why &nbsp; Choose &nbsp; us</h2>
                     </div>
+                        
                     <div className="row container section1" style={{ marginTop: "3%", marginLeft: "3%" }}>
                         <div className="col-12 col-md-6 container">
                             <img className="pic1" src={require('../Assets/pic1.png')} alt="full pic" />

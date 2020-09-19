@@ -11,9 +11,16 @@ class About extends Component {
             <div>
                 <div className="background2">
                     <div><Navb /></div>
-                    <div className="heading21 container">
-                        <h2>About Doodle Media</h2>
+                    <br/>
+                    <br/>
+                    <div className="heading2H container">
+                        About Doodle Media
                     </div>
+                    <div style={{fontFamily:"Rakkas, cursive"}}>
+                    <h2>About Doodle Media</h2>
+                    </div>
+                    <br/>
+                    <br/>
                     <div className="section21 container">
                         <p>Our Mission is to Make our Clients Work Less<br /> and Provide Designs where everyone can find<br /> whatever they need for Personal and Commercial<br /> Projects. </p>
                     </div>
