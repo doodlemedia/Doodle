@@ -18,7 +18,7 @@ class Work extends Component{
                     <div className="col-12 col-md-6 box">
                         <img className="picW" src={require('../Assets/NATURE.png')} alt="full pic" />
                         <p className="content1">
-                            Work Designing
+                            Web Designing
                         </p>
                     </div>
                     <div className="col-12 col-md-6 box">
@@ -32,7 +32,7 @@ class Work extends Component{
                     <div className="col-12 col-md-6  box">
                     <img className="picW" src={require('../Assets/Presentation.png')} alt="full pic" />
                     <p className="content3">
-                            Social Media 
+                            UI/UX Designing
                         </p>
                     </div>
                     <div className="col-12 col-md-6 box">
@@ -46,7 +46,7 @@ class Work extends Component{
                     <div className="col-12 col-md-6 box">
                     <img className="picW" src={require('../Assets/2.png')} alt="full pic" />
                     <p className="content5">
-                            Brouchure Designing 
+                            Brouchure Card 
                         </p>
                     </div>
                     <div className="col-12 col-md-6 box">
@@ -66,7 +66,7 @@ class Work extends Component{
                     <div className="col-12 col-md-6 box">
                     <img className="picW" src={require('../Assets/Screenshot.png')} alt="full pic" />
                     <p className="content8">
-                            Logo Designing
+                    Business Designing
                         </p>
                     </div>
                 </div>
@@ -80,7 +80,7 @@ class Work extends Component{
                     <div className="col-12 col-md-6 box">
                     <img className="picW" src={require('../Assets/smartmockupsk.jpg')} alt="full pic" />
                     <p className="content10">
-                            Business Card 
+                            Logo Designing 
                         </p>
                     </div>
                 </div>

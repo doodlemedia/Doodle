@@ -28,14 +28,28 @@ class Contact extends Component {
                     <br/>
                     <br/>
                     <Example />
-                    <div className="headingC1">
+                    <br/>
+                    <br/>
+                    <div className="headingC">
                         <p>Testimonials</p>
                     </div>
+                    <div style={{fontFamily:"Rakkas, cursive"}}>
+                        <h2>Testimonials</h2>
+                    </div>
+                    <br/>
+                    <br/>
                     <Example2 />
                     <br />
-                    <div className="headingC1">
+                    <br/>
+                    <br/>
+                    <div className="headingC">
                         <p>Get in Touch with us</p>
                     </div>
+                    <div style={{fontFamily:"Rakkas, cursive"}}>
+                        <h2>Get in Touch with us</h2>
+                    </div>
+                    <br/>
+                    <br/>
                     <div className="container">
                         <img className="picC1" src={require('../Assets/illustration.png')} alt="full pic" />
                     </div>
@@ -122,6 +136,7 @@ class Contact extends Component {
                 <p className="container lineCs" />
                 <div className="headingL" style={{ textAlign: "center" }}>
                     Life is for Great Services
+                    <br/>
                     </div>
                 <div className="center">
 
