@@ -28,12 +28,12 @@ class Contact extends Component {
                     <br/>
                     <br/>
                     <Example />
-                    <div className="headingC">
+                    <div className="headingC1">
                         <p>Testimonials</p>
                     </div>
                     <Example2 />
                     <br />
-                    <div className="headingC">
+                    <div className="headingC1">
                         <p>Get in Touch with us</p>
                     </div>
                     <div className="container">
