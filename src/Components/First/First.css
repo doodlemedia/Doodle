@@ -5,10 +5,10 @@
 }
 .pic{
     position: absolute;
-    width: 100%;
-    max-width: 1000px;
+    width: 120%;
+    max-width: 1500px;
     height: auto;   
-    margin-top: 25%;
+    margin-top: 20%;
 }
 .logo{
     width: 100%;
