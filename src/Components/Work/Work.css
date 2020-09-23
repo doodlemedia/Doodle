@@ -178,6 +178,12 @@
     margin-left: 20%;
     font-family: 'Rakkas', cursive;
 }
+@media only screen and (max-width: 600px){
+    .box:hover .content6{
+        transform: translateY(200px);
+        font-size: 30px;
+    }
+}
 .box .content7{
     position: absolute;
     color: white;
@@ -197,6 +203,12 @@
     font-size: 35px;
     margin-left: 20%;
     font-family: 'Rakkas', cursive;
+}
+@media only screen and (max-width: 600px){
+    .box:hover .content7{
+        transform: translateY(80px);
+        font-size: 25px;
+    }
 }
 .box .content8{
     position: absolute;
@@ -218,6 +230,12 @@
     margin-left: 20%;
     font-family: 'Rakkas', cursive;
 }
+@media only screen and (max-width: 600px){
+    .box:hover .content8{
+        transform: translateY(80px);
+        font-size: 25px;
+    }
+}
 .box .content9{
     position: absolute;
     color: white;
@@ -237,6 +255,12 @@
     font-size: 35px;
     margin-left: 20%;
     font-family: 'Rakkas', cursive;
+}
+@media only screen and (max-width: 600px){
+    .box:hover .content9{
+        transform: translateY(80px);
+        font-size: 25px;
+    }
 }
 .box .content10{
     position: absolute;
@@ -258,6 +282,12 @@
     margin-left: 20%;
     font-family: 'Rakkas', cursive;
 }
+@media only screen and (max-width: 600px){
+    .box:hover .content10{
+        transform: translateY(80px);
+        font-size: 25px;
+    }
+}
 .box .content11{
     position: absolute;
     color: white;
@@ -277,6 +307,12 @@
     font-size: 35px;
     margin-left: 20%;
     font-family: 'Rakkas', cursive;
+}
+@media only screen and (max-width: 600px){
+    .box:hover .content11{
+        transform: translateY(280px);
+        font-size: 30px;
+    }
 }
 .box .content12{
     position: absolute;
@@ -298,6 +334,12 @@
     margin-left: 20%;
     font-family: 'Rakkas', cursive;
 }
+@media only screen and (max-width: 600px){
+    .box:hover .content12{
+        transform: translateY(280px);
+        font-size: 30px;
+    }
+}
 .box .content13{
     position: absolute;
     color: white;
@@ -318,6 +360,12 @@
     margin-left: 20%;
     font-family: 'Rakkas', cursive;
 }
+@media only screen and (max-width: 600px){
+    .box:hover .content13{
+        transform: translateY(280px);
+        font-size: 30px;
+    }
+}
 .box .content14{
     position: absolute;
     color: white;
@@ -337,6 +385,12 @@
     font-size: 35px;
     margin-left: 20%;
     font-family: 'Rakkas', cursive;
+}
+@media only screen and (max-width: 600px){
+    .box:hover .content14{
+        transform: translateY(220px);
+        font-size: 30px;
+    }
 }
 .buttonW{
     border: 2px solid white;

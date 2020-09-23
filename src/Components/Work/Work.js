@@ -66,7 +66,7 @@ class Work extends Component{
                     <div className="col-12 col-md-6 box">
                     <img className="picW" src={require('../Assets/Screenshot.png')} alt="full pic" />
                     <p className="content8">
-                    Business Designing
+                    Business Card
                         </p>
                     </div>
                 </div>
