@@ -48,8 +48,8 @@ class Second extends Component {
                 </div><br /><br/>
                 <div className="footer1" >
                     <div style={{marginLeft: "3%" }}>
-                        <h3>We Help you Work Faster and Smarter</h3><br />
-                        <h5>We come together with creative Designers <br />around to provide you with the best<br /> graphics design services for all<br /> your creative needs.</h5>
+                        <div className="footerHeading" >We Help you Work Faster and Smarter</div ><br />
+                        <div className="footerSection">We come together with creative Designers <br />around to provide you with the best<br /> graphics design services for all<br /> your creative needs.</div>
                     </div>
 
 

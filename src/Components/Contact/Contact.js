@@ -139,7 +139,7 @@ class Contact extends Component {
                     <br/>
                     </div>
                 <div className="center">
-
+                <br/>
                     <div className="sect">
                         Copyright 2020
                     </div>
@@ -147,6 +147,7 @@ class Contact extends Component {
                         All Rights Reserved. Creativity by Doodle Media
                     </div>
                 </div>
+                <br/>
             </div>
         )
     }

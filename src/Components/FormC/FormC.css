@@ -3,7 +3,7 @@
     border: 0px;
     border-bottom: 2px solid black;
     margin-top: 5%;
-    font-size: 40px;
+    font-size: 30px;
     width: 900px;
     font-family: 'Rakkas', cursive;
 }
@@ -24,12 +24,12 @@
 @media only screen and (max-width: 800px){
     .frmc{
         width: 300px;
-        font-size: 25px;
+        font-size: 20px;
     }
 }
 @media only screen and (max-width: 600px){
     .frmc{
         width: 200px;
-        font-size: 20px;
+        font-size: 15px;
     }
 }
